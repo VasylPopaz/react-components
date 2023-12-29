@@ -1,13 +1,18 @@
 import { StatisticsItem } from 'components/StatisticsItem/StatisticsItem';
+import css from './Statistics.module.css';
 
 export const Statistics = ({ title, statistics }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={css.statsContainer}>
+      {title && <h2 className={css.statsTitle}>{title}</h2>}
 
-      <ul className="stat-list">
+      <ul className={css.statsList}>
         {statistics.map(elem => (
-          <StatisticsItem key={elem.id} {...elem} />
+          <StatisticsItem
+            style={{ backgroundColor: 'red' }}
+            key={elem.id}
+            {...elem}
+          />
         ))}
       </ul>
     </section>

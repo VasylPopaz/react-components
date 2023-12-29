@@ -1,0 +1,8 @@
+td:first-child {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+td:last-child {
+  font-style: italic;
+}

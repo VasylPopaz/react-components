@@ -1,0 +1,12 @@
+.statsContainer {
+  padding-bottom: 50px;
+  width: 400px;
+  text-align: center;
+}
+.statsTitle {
+  padding: 20px 0;
+  background-color: white;
+}
+.statsList {
+  display: flex;
+}

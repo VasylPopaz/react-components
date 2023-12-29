@@ -1,0 +1,32 @@
+.item {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 2px black;
+  background-color: white;
+}
+.status {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: aqua;
+}
+.isOnline {
+  background-color: green;
+}
+.isOffline {
+  background-color: red;
+}
+.imgWrapper {
+  border: 2px solid lightgray;
+  padding: 4px;
+  background-color: #e7ecf2;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,11 @@
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80px;
+}
+.statsDesc {
+  color: white;
+}
+.statsQuantity {
+  color: white;
+}
